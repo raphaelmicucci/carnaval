@@ -1,0 +1,330 @@
+{
+   "fonte": "Blocos oficialmente aprovados – Publicação 22 jan 2026",
+   "cidade": "São Paulo",
+   "ano": 2026,
+   "total_blocos": 23,
+   "blocos": [
+      {
+         "nome": "Te Pego no Cantinho",
+         "data": "22/02/2026",
+         "periodo": "Pós-Carnaval",
+         "subprefeitura": "Butantã",
+         "itinerario": "R. Boturoca, R. Iquiririm, R. Castor da Silva, R. Nobre Vieira",
+         "horarios": {
+            "concentracao": "14:00",
+            "inicio_desfile": "15:00",
+            "termino_desfile": "18:00"
+         },
+         "dia_da_semana": "",
+         "coordenadas": ""
+      },
+      {
+         "nome": "Acadêmicos da Cerca Frango",
+         "data": "17/02/2026",
+         "periodo": "Período-Carnaval",
+         "subprefeitura": "Lapa",
+         "itinerario": "Pça. Jesuíno Bandeira, R. Bárbara Heliodora, R. Vespasiano, R. Armando Brussolo, R. Marco Aurélio, Pça. Jesuíno Bandeira, R. Jesuíno Bandeira, R. Bárbara Heliodora, Pça. Diogo do Amaral",
+         "horarios": {
+            "concentracao": "09:00",
+            "inicio_desfile": "10:00",
+            "termino_desfile": "14:00"
+         },
+         "dia_da_semana": "",
+         "coordenadas": ""
+      },
+      {
+         "nome": "Bloco Ritaleena",
+         "data": "07/02/2026",
+         "periodo": "Pré-Carnaval",
+         "subprefeitura": "Lapa",
+         "itinerario": "Av. Paulo VI, entre Praça Marcia Alberti Mammana e Av. Sumaré, 1529",
+         "horarios": {
+            "concentracao": "12:00",
+            "inicio_desfile": "13:00",
+            "termino_desfile": "17:00"
+         },
+         "dia_da_semana": "",
+         "coordenadas": ""
+      },
+      {
+         "nome": "Bloco Saia de Chita",
+         "data": "15/02/2026",
+         "periodo": "Período-Carnaval",
+         "subprefeitura": "Lapa",
+         "itinerario": "R. Marcelina, Pça. João Salgado Sobrinho, R. Bárbara Heliodora, Pça. Diogo do Amaral, Pça. Jesuíno Bandeira",
+         "horarios": {
+            "concentracao": "08:00",
+            "inicio_desfile": "09:00",
+            "termino_desfile": "13:00"
+         },
+         "dia_da_semana": "",
+         "coordenadas": ""
+      },
+      {
+         "nome": "ONG Bloco Vai Quem Quer",
+         "data": "15/02/2026",
+         "periodo": "Período-Carnaval",
+         "subprefeitura": "M'Boi Mirim",
+         "itinerario": "R. Bruno Felisberto Cavinato, R. Maria Benedita Rodrigues, R. Mercedes Nasser Sabag, R. Engenheiro Roberto Barbeta, R. Professor Horácio Quaglio, R. Jorge de Macedo vieira, R. Maria Benedita Rodrigues, R. Francisco Ricarte Silva, R. Dermival Bispo dos Santos, R. Bruno felisberto Cavinato",
+         "horarios": {
+            "concentracao": "13:00",
+            "inicio_desfile": "14:00",
+            "termino_desfile": "18:00"
+         },
+         "dia_da_semana": "",
+         "coordenadas": ""
+      },
+      {
+         "nome": "Bloco BenJores",
+         "data": "15/02/2026",
+         "periodo": "Período-Carnaval",
+         "subprefeitura": "Pinheiros",
+         "itinerario": "Av. Prof. Frederico Hermann Júnior, 555 ao 345",
+         "horarios": {
+            "concentracao": "11:00",
+            "inicio_desfile": "12:00",
+            "termino_desfile": "16:00"
+         },
+         "dia_da_semana": "",
+         "coordenadas": ""
+      },
+      {
+         "nome": "Bloco Ritaleena",
+         "data": "15/02/2026",
+         "periodo": "Período-Carnaval",
+         "subprefeitura": "Santo Amaro",
+         "itinerario": "Av. Eng. Eusébio Estevaux (entre R. Maria Clara Martins da Silveira e R. Moacir Padilha)",
+         "horarios": {
+            "concentracao": "12:00",
+            "inicio_desfile": "13:00",
+            "termino_desfile": "17:00"
+         },
+         "dia_da_semana": "",
+         "coordenadas": ""
+      },
+      {
+         "nome": "Acadêmicos do Baixo Augusta",
+         "data": "08/02/2026",
+         "periodo": "Pré-Carnaval",
+         "subprefeitura": "Sé",
+         "itinerario": "R. da Consolação, 2101 ao 585",
+         "horarios": {
+            "concentracao": "15:00",
+            "inicio_desfile": "16:00",
+            "termino_desfile": "18:00"
+         },
+         "dia_da_semana": "",
+         "coordenadas": ""
+      },
+      {
+         "nome": "Bloco Afro Ilú Obá De Min",
+         "data": "13/02/2026",
+         "periodo": "Período-Carnaval",
+         "subprefeitura": "Sé",
+         "itinerario": "Pça.da Republica, Av. Sao Luis, R. da Consolação , R. Cel. Xavier de Toledo, Pça.Ramos, R. Conselheiro Crispiniano, Lgo. do Paissandu",
+         "horarios": {
+            "concentracao": "19:00",
+            "inicio_desfile": "20:00",
+            "termino_desfile": "23:00"
+         },
+         "dia_da_semana": "",
+         "coordenadas": ""
+      },
+      {
+         "nome": "Bloco Afro Ilú Obá De Min",
+         "data": "15/02/2026",
+         "periodo": "Período-Carnaval",
+         "subprefeitura": "Sé",
+         "itinerario": "R. Conselheiro Brotero, R. Capistrano de Abreu, R. Conselheiro Nébias, Al. Eduardo Prado",
+         "horarios": {
+            "concentracao": "14:00",
+            "inicio_desfile": "15:00",
+            "termino_desfile": "18:00"
+         },
+         "dia_da_semana": "",
+         "coordenadas": ""
+      },
+      {
+         "nome": "Bloco Agora Vai",
+         "data": "17/02/2026",
+         "periodo": "Período-Carnaval",
+         "subprefeitura": "Sé",
+         "itinerario": "Al. Barão de Limeira, 1524 ao 671",
+         "horarios": {
+            "concentracao": "14:00",
+            "inicio_desfile": "15:00",
+            "termino_desfile": "18:00"
+         },
+         "dia_da_semana": "",
+         "coordenadas": ""
+      },
+      {
+         "nome": "Bloco Carimbolando",
+         "data": "14/02/2026",
+         "periodo": "Período-Carnaval",
+         "subprefeitura": "Sé",
+         "itinerario": "R. Martim Francisco, R. Imaculada Conceição, R. Barão de Tatuí, R. Jaguaribe, R. Martim Francisco",
+         "horarios": {
+            "concentracao": "10:00",
+            "inicio_desfile": "11:00",
+            "termino_desfile": "15:00"
+         },
+         "dia_da_semana": "",
+         "coordenadas": ""
+      },
+      {
+         "nome": "Bloco Je Treme Mon Amour",
+         "data": "14/02/2026",
+         "periodo": "Período-Carnaval",
+         "subprefeitura": "Sé",
+         "itinerario": "R. Rui Barbosa, R. João Passalaqua, R. Santo Antônio, R. Treze de Maio, Pça. Dom Orione",
+         "horarios": {
+            "concentracao": "12:00",
+            "inicio_desfile": "13:00",
+            "termino_desfile": "16:00"
+         },
+         "dia_da_semana": "",
+         "coordenadas": ""
+      },
+      {
+         "nome": "Explode Coração",
+         "data": "15/02/2026",
+         "periodo": "Período-Carnaval",
+         "subprefeitura": "Sé",
+         "itinerario": "Pça. da República, Av. Ipiranga, Av. São Luis, R. Cel Xavier de Toledo, Shopping Light, Pça.Ramos de Azevedo, R. Conselheiro Crispiniano, Lgo. do Paissandú, Av. São João",
+         "horarios": {
+            "concentracao": "14:00",
+            "inicio_desfile": "15:00",
+            "termino_desfile": "18:00"
+         },
+         "dia_da_semana": "",
+         "coordenadas": ""
+      },
+      {
+         "nome": "Manada",
+         "data": "14/02/2026",
+         "periodo": "Período-Carnaval",
+         "subprefeitura": "Sé",
+         "itinerario": "R. Conselheiro Brotero, R. Capistrano de Abreu, R. Lopes de Oliveira, R. Vitorino Camilo, R. Sousa Lima, R. Camerino, R. Lopes de Oliveira, R. Vitorino Camilo, R. Sousa Lima",
+         "horarios": {
+            "concentracao": "8:00",
+            "inicio_desfile": "9:00",
+            "termino_desfile": "13:00"
+         },
+         "dia_da_semana": "",
+         "coordenadas": ""
+      },
+      {
+         "nome": "Pipoca da Rainha",
+         "data": "22/02/2026",
+         "periodo": "Pós-Carnaval",
+         "subprefeitura": "Sé",
+         "itinerario": "R. da Consolação, 2101 ao 585",
+         "horarios": {
+            "concentracao": "13:00",
+            "inicio_desfile": "14:00",
+            "termino_desfile": "18:00"
+         },
+         "dia_da_semana": "",
+         "coordenadas": ""
+      },
+      {
+         "nome": "Tarado Ni Você",
+         "data": "14/02/2026",
+         "periodo": "Período-Carnaval",
+         "subprefeitura": "Sé",
+         "itinerario": "Av. Ipiranga, Av. São Luiz, Av. Cel. Xavier de Toledo, Teatro Municipal",
+         "horarios": {
+            "concentracao": "11:00",
+            "inicio_desfile": "12:00",
+            "termino_desfile": "16:00"
+         },
+         "dia_da_semana": "",
+         "coordenadas": ""
+      },
+      {
+         "nome": "Unidos do Swing",
+         "data": "16/02/2026",
+         "periodo": "Período-Carnaval",
+         "subprefeitura": "Sé",
+         "itinerario": "R. Boa Vista, R. Líbero Badaró, Pça. do Patriarca, Lgo. São Francisco",
+         "horarios": {
+            "concentracao": "13:00",
+            "inicio_desfile": "14:00",
+            "termino_desfile": "18:00"
+         },
+         "dia_da_semana": "",
+         "coordenadas": ""
+      },
+      {
+         "nome": "BaianaSystem",
+         "data": "21/02/2026",
+         "periodo": "Pós-Carnaval",
+         "subprefeitura": "Vila Mariana",
+         "itinerario": "Ibirapuera - Av. Pedro Álvares Cabral, entre Obelisco e Monumento as Bandeiras",
+         "horarios": {
+            "concentracao": "15:00",
+            "inicio_desfile": "16:00",
+            "termino_desfile": "18:00"
+         },
+         "dia_da_semana": "",
+         "coordenadas": ""
+      },
+      {
+         "nome": "Bloco Filhos de Gil",
+         "data": "16/02/2026",
+         "periodo": "Período-Carnaval",
+         "subprefeitura": "Vila Mariana",
+         "itinerario": "Av. Helio Pellegrino, 200 a 800",
+         "horarios": {
+            "concentracao": "13:00",
+            "inicio_desfile": "14:00",
+            "termino_desfile": "18:00"
+         },
+         "dia_da_semana": "",
+         "coordenadas": ""
+      },
+      {
+         "nome": "Forrozin",
+         "data": "07/02/2026",
+         "periodo": "Pré-Carnaval",
+         "subprefeitura": "Vila Mariana",
+         "itinerario": "Ibirapuera - Av. Pedro Álvares Cabral, entre Obelisco e Monumento as Bandeiras",
+         "horarios": {
+            "concentracao": "12:00",
+            "inicio_desfile": "13:00",
+            "termino_desfile": "15:00"
+         },
+         "dia_da_semana": "",
+         "coordenadas": ""
+      },
+      {
+         "nome": "Bloco Quem Pede, Pede (Ivete Sangalo)",
+         "data": "07/02/2026",
+         "periodo": "Pré-Carnaval",
+         "subprefeitura": "Vila Mariana",
+         "itinerario": "Obelisco do Ibirapuera",
+         "horarios": {
+            "concentracao": "09:00",
+            "inicio_desfile": "10:00",
+            "termino_desfile": "13:00"
+         },
+         "dia_da_semana": "",
+         "coordenadas": ""
+      },
+      {
+         "nome": "Fanfarra Xamego",
+         "data": "15/02/2026",
+         "periodo": "Período-Carnaval",
+         "subprefeitura": "Lapa",
+         "itinerario": "R. dos Americanos, R. Conego Vicente Miguel Marino, R. Anhanguera, R. Luigi Greco, R. Cruzeiro, R. Padre Luís Alves de Siqueira",
+         "horarios": {
+            "concentracao": "11:00",
+            "inicio_desfile": "12:00",
+            "termino_desfile": "16:00"
+         },
+         "dia_da_semana": "",
+         "coordenadas": ""
+      }
+   ]
+}
