@@ -15,7 +15,7 @@
             "inicio_desfile": "15:00",
             "termino_desfile": "18:00"
          },
-         "dia_da_semana": "",
+         "dia_da_semana": "Domingo",
          "coordenadas": ""
       },
       {
@@ -29,7 +29,7 @@
             "inicio_desfile": "10:00",
             "termino_desfile": "14:00"
          },
-         "dia_da_semana": "",
+         "dia_da_semana": "Terça-feira",
          "coordenadas": ""
       },
       {
@@ -43,7 +43,7 @@
             "inicio_desfile": "13:00",
             "termino_desfile": "17:00"
          },
-         "dia_da_semana": "",
+         "dia_da_semana": "Sábado",
          "coordenadas": ""
       },
       {
@@ -57,7 +57,7 @@
             "inicio_desfile": "09:00",
             "termino_desfile": "13:00"
          },
-         "dia_da_semana": "",
+         "dia_da_semana": "Domingo",
          "coordenadas": ""
       },
       {
@@ -71,7 +71,7 @@
             "inicio_desfile": "14:00",
             "termino_desfile": "18:00"
          },
-         "dia_da_semana": "",
+         "dia_da_semana": "Domingo",
          "coordenadas": ""
       },
       {
@@ -85,7 +85,7 @@
             "inicio_desfile": "12:00",
             "termino_desfile": "16:00"
          },
-         "dia_da_semana": "",
+         "dia_da_semana": "Domingo",
          "coordenadas": ""
       },
       {
@@ -99,7 +99,7 @@
             "inicio_desfile": "13:00",
             "termino_desfile": "17:00"
          },
-         "dia_da_semana": "",
+         "dia_da_semana": "Domingo",
          "coordenadas": ""
       },
       {
@@ -113,7 +113,7 @@
             "inicio_desfile": "16:00",
             "termino_desfile": "18:00"
          },
-         "dia_da_semana": "",
+         "dia_da_semana": "Domingo",
          "coordenadas": ""
       },
       {
@@ -127,7 +127,7 @@
             "inicio_desfile": "20:00",
             "termino_desfile": "23:00"
          },
-         "dia_da_semana": "",
+         "dia_da_semana": "Sexta-feira",
          "coordenadas": ""
       },
       {
@@ -141,7 +141,7 @@
             "inicio_desfile": "15:00",
             "termino_desfile": "18:00"
          },
-         "dia_da_semana": "",
+         "dia_da_semana": "Domingo",
          "coordenadas": ""
       },
       {
@@ -155,7 +155,7 @@
             "inicio_desfile": "15:00",
             "termino_desfile": "18:00"
          },
-         "dia_da_semana": "",
+         "dia_da_semana": "Terça-feira",
          "coordenadas": ""
       },
       {
@@ -169,7 +169,7 @@
             "inicio_desfile": "11:00",
             "termino_desfile": "15:00"
          },
-         "dia_da_semana": "",
+         "dia_da_semana": "Sábado",
          "coordenadas": ""
       },
       {
@@ -183,7 +183,7 @@
             "inicio_desfile": "13:00",
             "termino_desfile": "16:00"
          },
-         "dia_da_semana": "",
+         "dia_da_semana": "Sábado",
          "coordenadas": ""
       },
       {
@@ -197,7 +197,7 @@
             "inicio_desfile": "15:00",
             "termino_desfile": "18:00"
          },
-         "dia_da_semana": "",
+         "dia_da_semana": "Domingo",
          "coordenadas": ""
       },
       {
@@ -211,7 +211,7 @@
             "inicio_desfile": "9:00",
             "termino_desfile": "13:00"
          },
-         "dia_da_semana": "",
+         "dia_da_semana": "Sábado",
          "coordenadas": ""
       },
       {
@@ -225,7 +225,7 @@
             "inicio_desfile": "14:00",
             "termino_desfile": "18:00"
          },
-         "dia_da_semana": "",
+         "dia_da_semana": "Domingo",
          "coordenadas": ""
       },
       {
@@ -239,7 +239,7 @@
             "inicio_desfile": "12:00",
             "termino_desfile": "16:00"
          },
-         "dia_da_semana": "",
+         "dia_da_semana": "Sábado",
          "coordenadas": ""
       },
       {
@@ -253,7 +253,7 @@
             "inicio_desfile": "14:00",
             "termino_desfile": "18:00"
          },
-         "dia_da_semana": "",
+         "dia_da_semana": "Segunda-feira",
          "coordenadas": ""
       },
       {
@@ -267,7 +267,7 @@
             "inicio_desfile": "16:00",
             "termino_desfile": "18:00"
          },
-         "dia_da_semana": "",
+         "dia_da_semana": "Sábado",
          "coordenadas": ""
       },
       {
@@ -281,7 +281,7 @@
             "inicio_desfile": "14:00",
             "termino_desfile": "18:00"
          },
-         "dia_da_semana": "",
+         "dia_da_semana": "Segunda-feira",
          "coordenadas": ""
       },
       {
@@ -295,7 +295,7 @@
             "inicio_desfile": "13:00",
             "termino_desfile": "15:00"
          },
-         "dia_da_semana": "",
+         "dia_da_semana": "Sábado",
          "coordenadas": ""
       },
       {
@@ -309,7 +309,7 @@
             "inicio_desfile": "10:00",
             "termino_desfile": "13:00"
          },
-         "dia_da_semana": "",
+         "dia_da_semana": "Sábado",
          "coordenadas": ""
       },
       {
@@ -323,7 +323,7 @@
             "inicio_desfile": "12:00",
             "termino_desfile": "16:00"
          },
-         "dia_da_semana": "",
+         "dia_da_semana": "Domingo",
          "coordenadas": ""
       }
    ]
