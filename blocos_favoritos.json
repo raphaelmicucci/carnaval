@@ -16,12 +16,12 @@
             "termino_desfile": "18:00"
          },
          "dia_da_semana": "Domingo",
-         "coordenadas": ""
+         "coordenadas": "-23.572862115332878, -46.727871770681354"
       },
       {
          "nome": "Acadêmicos da Cerca Frango",
          "data": "17/02/2026",
-         "periodo": "Período-Carnaval",
+         "periodo": "Carnaval",
          "subprefeitura": "Lapa",
          "itinerario": "Pça. Jesuíno Bandeira, R. Bárbara Heliodora, R. Vespasiano, R. Armando Brussolo, R. Marco Aurélio, Pça. Jesuíno Bandeira, R. Jesuíno Bandeira, R. Bárbara Heliodora, Pça. Diogo do Amaral",
          "horarios": {
@@ -30,7 +30,7 @@
             "termino_desfile": "14:00"
          },
          "dia_da_semana": "Terça-feira",
-         "coordenadas": ""
+         "coordenadas": "-23.535264449934367, -46.696330531864426"
       },
       {
          "nome": "Bloco Ritaleena",
@@ -44,12 +44,12 @@
             "termino_desfile": "17:00"
          },
          "dia_da_semana": "Sábado",
-         "coordenadas": ""
+         "coordenadas": "-23.550094265975506, -46.676729933444925"
       },
       {
          "nome": "Bloco Saia de Chita",
          "data": "15/02/2026",
-         "periodo": "Período-Carnaval",
+         "periodo": "Carnaval",
          "subprefeitura": "Lapa",
          "itinerario": "R. Marcelina, Pça. João Salgado Sobrinho, R. Bárbara Heliodora, Pça. Diogo do Amaral, Pça. Jesuíno Bandeira",
          "horarios": {
@@ -58,12 +58,12 @@
             "termino_desfile": "13:00"
          },
          "dia_da_semana": "Domingo",
-         "coordenadas": ""
+         "coordenadas": "-23.530284838973092, -46.6947104469409"
       },
       {
          "nome": "ONG Bloco Vai Quem Quer",
          "data": "15/02/2026",
-         "periodo": "Período-Carnaval",
+         "periodo": "Carnaval",
          "subprefeitura": "M'Boi Mirim",
          "itinerario": "R. Bruno Felisberto Cavinato, R. Maria Benedita Rodrigues, R. Mercedes Nasser Sabag, R. Engenheiro Roberto Barbeta, R. Professor Horácio Quaglio, R. Jorge de Macedo vieira, R. Maria Benedita Rodrigues, R. Francisco Ricarte Silva, R. Dermival Bispo dos Santos, R. Bruno felisberto Cavinato",
          "horarios": {
@@ -72,12 +72,12 @@
             "termino_desfile": "18:00"
          },
          "dia_da_semana": "Domingo",
-         "coordenadas": ""
+         "coordenadas": "-23.662242802156054, -46.754840420777846"
       },
       {
          "nome": "Bloco BenJores",
          "data": "15/02/2026",
-         "periodo": "Período-Carnaval",
+         "periodo": "Carnaval",
          "subprefeitura": "Pinheiros",
          "itinerario": "Av. Prof. Frederico Hermann Júnior, 555 ao 345",
          "horarios": {
@@ -86,12 +86,12 @@
             "termino_desfile": "16:00"
          },
          "dia_da_semana": "Domingo",
-         "coordenadas": ""
+         "coordenadas": "-23.56227172296292, -46.70325246307963"
       },
       {
          "nome": "Bloco Ritaleena",
          "data": "15/02/2026",
-         "periodo": "Período-Carnaval",
+         "periodo": "Carnaval",
          "subprefeitura": "Santo Amaro",
          "itinerario": "Av. Eng. Eusébio Estevaux (entre R. Maria Clara Martins da Silveira e R. Moacir Padilha)",
          "horarios": {
@@ -100,7 +100,7 @@
             "termino_desfile": "17:00"
          },
          "dia_da_semana": "Domingo",
-         "coordenadas": ""
+         "coordenadas": "-23.67343477591183, -46.69836448287852"
       },
       {
          "nome": "Acadêmicos do Baixo Augusta",
@@ -114,12 +114,12 @@
             "termino_desfile": "18:00"
          },
          "dia_da_semana": "Domingo",
-         "coordenadas": ""
+         "coordenadas": "-23.55362004388779, -46.66004216067779"
       },
       {
          "nome": "Bloco Afro Ilú Obá De Min",
          "data": "13/02/2026",
-         "periodo": "Período-Carnaval",
+         "periodo": "Carnaval",
          "subprefeitura": "Sé",
          "itinerario": "Pça.da Republica, Av. Sao Luis, R. da Consolação , R. Cel. Xavier de Toledo, Pça.Ramos, R. Conselheiro Crispiniano, Lgo. do Paissandu",
          "horarios": {
@@ -128,12 +128,12 @@
             "termino_desfile": "23:00"
          },
          "dia_da_semana": "Sexta-feira",
-         "coordenadas": ""
+         "coordenadas": "-23.54369542928982, -46.642065838522576"
       },
       {
          "nome": "Bloco Afro Ilú Obá De Min",
          "data": "15/02/2026",
-         "periodo": "Período-Carnaval",
+         "periodo": "Carnaval",
          "subprefeitura": "Sé",
          "itinerario": "R. Conselheiro Brotero, R. Capistrano de Abreu, R. Conselheiro Nébias, Al. Eduardo Prado",
          "horarios": {
@@ -142,12 +142,12 @@
             "termino_desfile": "18:00"
          },
          "dia_da_semana": "Domingo",
-         "coordenadas": ""
+         "coordenadas": "-23.52910370209983, -46.65606242393298"
       },
       {
          "nome": "Bloco Agora Vai",
          "data": "17/02/2026",
-         "periodo": "Período-Carnaval",
+         "periodo": "Carnaval",
          "subprefeitura": "Sé",
          "itinerario": "Al. Barão de Limeira, 1524 ao 671",
          "horarios": {
@@ -156,12 +156,12 @@
             "termino_desfile": "18:00"
          },
          "dia_da_semana": "Terça-feira",
-         "coordenadas": ""
+         "coordenadas": "-23.529075484296374, -46.65164724020025"
       },
       {
          "nome": "Bloco Carimbolando",
          "data": "14/02/2026",
-         "periodo": "Período-Carnaval",
+         "periodo": "Carnaval",
          "subprefeitura": "Sé",
          "itinerario": "R. Martim Francisco, R. Imaculada Conceição, R. Barão de Tatuí, R. Jaguaribe, R. Martim Francisco",
          "horarios": {
@@ -170,12 +170,12 @@
             "termino_desfile": "15:00"
          },
          "dia_da_semana": "Sábado",
-         "coordenadas": ""
+         "coordenadas": "-23.54135086776441, -46.65438560404431"
       },
       {
          "nome": "Bloco Je Treme Mon Amour",
          "data": "14/02/2026",
-         "periodo": "Período-Carnaval",
+         "periodo": "Carnaval",
          "subprefeitura": "Sé",
          "itinerario": "R. Rui Barbosa, R. João Passalaqua, R. Santo Antônio, R. Treze de Maio, Pça. Dom Orione",
          "horarios": {
@@ -184,12 +184,12 @@
             "termino_desfile": "16:00"
          },
          "dia_da_semana": "Sábado",
-         "coordenadas": ""
+         "coordenadas": "-23.560412068287775, -46.645169449125504"
       },
       {
          "nome": "Explode Coração",
          "data": "15/02/2026",
-         "periodo": "Período-Carnaval",
+         "periodo": "Carnaval",
          "subprefeitura": "Sé",
          "itinerario": "Pça. da República, Av. Ipiranga, Av. São Luis, R. Cel Xavier de Toledo, Shopping Light, Pça.Ramos de Azevedo, R. Conselheiro Crispiniano, Lgo. do Paissandú, Av. São João",
          "horarios": {
@@ -198,12 +198,12 @@
             "termino_desfile": "18:00"
          },
          "dia_da_semana": "Domingo",
-         "coordenadas": ""
+         "coordenadas": "-23.54369542928982, -46.642065838522576"
       },
       {
          "nome": "Manada",
          "data": "14/02/2026",
-         "periodo": "Período-Carnaval",
+         "periodo": "Carnaval",
          "subprefeitura": "Sé",
          "itinerario": "R. Conselheiro Brotero, R. Capistrano de Abreu, R. Lopes de Oliveira, R. Vitorino Camilo, R. Sousa Lima, R. Camerino, R. Lopes de Oliveira, R. Vitorino Camilo, R. Sousa Lima",
          "horarios": {
@@ -212,7 +212,7 @@
             "termino_desfile": "13:00"
          },
          "dia_da_semana": "Sábado",
-         "coordenadas": ""
+         "coordenadas": "-23.52910370209983, -46.65606242393298"
       },
       {
          "nome": "Pipoca da Rainha",
@@ -226,12 +226,12 @@
             "termino_desfile": "18:00"
          },
          "dia_da_semana": "Domingo",
-         "coordenadas": ""
+         "coordenadas": "-23.55343328795386, -46.660031433300034"
       },
       {
          "nome": "Tarado Ni Você",
          "data": "14/02/2026",
-         "periodo": "Período-Carnaval",
+         "periodo": "Carnaval",
          "subprefeitura": "Sé",
          "itinerario": "Av. Ipiranga, Av. São Luiz, Av. Cel. Xavier de Toledo, Teatro Municipal",
          "horarios": {
@@ -240,12 +240,12 @@
             "termino_desfile": "16:00"
          },
          "dia_da_semana": "Sábado",
-         "coordenadas": ""
+         "coordenadas": "-23.542349168520516, -46.64031233295154"
       },
       {
          "nome": "Unidos do Swing",
          "data": "16/02/2026",
-         "periodo": "Período-Carnaval",
+         "periodo": "Carnaval",
          "subprefeitura": "Sé",
          "itinerario": "R. Boa Vista, R. Líbero Badaró, Pça. do Patriarca, Lgo. São Francisco",
          "horarios": {
@@ -254,7 +254,7 @@
             "termino_desfile": "18:00"
          },
          "dia_da_semana": "Segunda-feira",
-         "coordenadas": ""
+         "coordenadas": "-23.547849362146657, -46.63264076066404"
       },
       {
          "nome": "BaianaSystem",
@@ -268,12 +268,12 @@
             "termino_desfile": "18:00"
          },
          "dia_da_semana": "Sábado",
-         "coordenadas": ""
+         "coordenadas": "-23.583207960619607, -46.65497271321569"
       },
       {
          "nome": "Bloco Filhos de Gil",
          "data": "16/02/2026",
-         "periodo": "Período-Carnaval",
+         "periodo": "Carnaval",
          "subprefeitura": "Vila Mariana",
          "itinerario": "Av. Helio Pellegrino, 200 a 800",
          "horarios": {
@@ -282,7 +282,7 @@
             "termino_desfile": "18:00"
          },
          "dia_da_semana": "Segunda-feira",
-         "coordenadas": ""
+         "coordenadas": "-23.597388344636485, -46.66502708722837"
       },
       {
          "nome": "Forrozin",
@@ -296,7 +296,7 @@
             "termino_desfile": "15:00"
          },
          "dia_da_semana": "Sábado",
-         "coordenadas": ""
+         "coordenadas": "-23.58317098021945, -46.65507484415012"
       },
       {
          "nome": "Bloco Quem Pede, Pede (Ivete Sangalo)",
@@ -310,7 +310,7 @@
             "termino_desfile": "13:00"
          },
          "dia_da_semana": "Sábado",
-         "coordenadas": ""
+         "coordenadas": "-23.583207960619607, -46.65497271321569"
       },
       {
          "nome": "Fanfarra Xamego",
@@ -324,7 +324,7 @@
             "termino_desfile": "16:00"
          },
          "dia_da_semana": "Domingo",
-         "coordenadas": ""
+         "coordenadas": "-23.52253090076349, -46.65554907781279"
       }
    ]
 }
