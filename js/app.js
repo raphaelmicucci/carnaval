@@ -16,6 +16,20 @@ async function loadBlocos() {
             blocos = blocos.concat(data.blocos_por_data[data_key]);
         }
         
+        // Sort automático: primeiro por data, depois por favorito (true primeiro)
+        blocos.sort((a, b) => {
+            const dateA = new Date(a.data.split('/').reverse().join('-'));
+            const dateB = new Date(b.data.split('/').reverse().join('-'));
+            
+            // Primeiro ordena por data
+            if (dateA !== dateB) {
+                return dateA - dateB;
+            }
+            
+            // Se a data for igual, ordena por favorito (true first)
+            return b.favorito - a.favorito;
+        });
+        
         return blocos;
     } catch (error) {
         console.error('Erro ao carregar blocos:', error);

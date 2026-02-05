@@ -141,6 +141,15 @@ a {
     color: var(--black);
 }
 
+a[href="mapa.html"] {
+    background: #6acdca !important;
+}
+
+a[href="galeria.html"] {
+    background: #FFFD66 !important;
+    color: var(--black) !important;
+}
+
 .btn-secondary:hover {
     background: var(--black);
     color: var(--color-secondary);

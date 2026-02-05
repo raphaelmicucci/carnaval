@@ -170,10 +170,6 @@ function renderBlocos() {
                         <span>${bloco.bairro}</span>
                     </div>
                     <div class="bloco-field">
-                        <strong>Subprefeitura:</strong>
-                        <span>${bloco.subprefeitura}</span>
-                    </div>
-                    <div class="bloco-field">
                         <strong>Itinerário:</strong>
                         <span>${bloco.itinerario}</span>
                     </div>
