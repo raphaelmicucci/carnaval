@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria - Carnaval São Paulo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+<body>
+    <div class="container galeria-container">
+        <!-- Header -->
+        <header class="page-header">
+            <a href="index.html" class="btn-back"><i data-feather="arrow-left" class="icon-small"></i> Voltar</a>
+            <h1>Outros carnavais</h1>
+        </header>
+
+        <!-- Galeria Swiper -->
+        <section class="gallery-full">
+            <div class="swiper gallerySwiper">
+                <div class="swiper-wrapper">
+                    <!-- Slides preenchidos via JS -->
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/galeria.js"></script>
+    <button id="btnScrollTop" class="btn-scroll-top" onclick="scrollToTop()"><i data-feather="arrow-up" class="icon-small"></i></button>
+</body>
+</html>
