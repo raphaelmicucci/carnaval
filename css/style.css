@@ -102,6 +102,11 @@ a {
     margin: 0;
 }
 
+.intro-section .creditos {
+    font-size: 0.9rem;
+    line-height: 1.8;
+}
+
 /* CTA Buttons */
 .cta-section {
     display: flex;
@@ -146,8 +151,8 @@ a[href="mapa.html"] {
 }
 
 a[href="galeria.html"] {
-    background: #FFFD66 !important;
-    color: var(--black) !important;
+    background: #FBFF00 !important;
+    color: #000 !important;
 }
 
 .btn-secondary:hover {
@@ -333,6 +338,17 @@ a[href="galeria.html"] {
     background: var(--white);
     transition: all 0.2s;
     overflow: hidden;
+    position: relative;
+}
+
+.bloco-card.favorito {
+    border: 3px solid #917b00 !important;
+}
+
+.bloco-card.favorito .bloco-header-wrapper {
+    background: url('../assets/golden.jpg') center/cover !important;
+    background-attachment: fixed;
+    position: relative;
 }
 
 .bloco-card.with-photo {
@@ -359,7 +375,7 @@ a[href="galeria.html"] {
     padding-top: 1.5rem;
 }
 
-.bloco-card:hover {
+.bloco-card:hover:not(.favorito) {
     background: var(--gray-light);
 }
 

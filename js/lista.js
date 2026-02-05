@@ -120,13 +120,25 @@ function renderBlocos() {
         return;
     }
 
-    // Ordenar por data
-    filtered.sort((a, b) => new Date(a.data.split('/').reverse().join('-')) - new Date(b.data.split('/').reverse().join('-')));
+    // Ordenar por data, depois por favorito (true primeiro)
+    filtered.sort((a, b) => {
+        const dateA = new Date(a.data.split('/').reverse().join('-'));
+        const dateB = new Date(b.data.split('/').reverse().join('-'));
+        
+        // Primeiro ordena por data
+        if (dateA !== dateB) {
+            return dateA - dateB;
+        }
+        
+        // Se a data for igual, ordena por favorito (true first)
+        return b.favorito - a.favorito;
+    });
 
     filtered.forEach((bloco, index) => {
         const hasPhoto = bloco.foto ? true : false;
+        const isFavorito = bloco.favorito ? true : false;
         const card = document.createElement('div');
-        card.className = `bloco-card ${hasPhoto ? 'with-photo' : 'without-photo'}`;
+        card.className = `bloco-card ${hasPhoto ? 'with-photo' : 'without-photo'} ${isFavorito ? 'favorito' : ''}`;
         
         let photoHTML = '';
         if (hasPhoto) {
@@ -160,8 +172,8 @@ function renderBlocos() {
                     <div class="bloco-field">
                         <strong>Horários:</strong>
                         <span>
-                            Concentração: ${bloco.horarios.concentracao} | 
-                            Início: ${bloco.horarios.inicio_desfile} | 
+                            Concentração: ${bloco.horarios.concentracao}<br>
+                            Início: ${bloco.horarios.inicio_desfile}<br>
                             Término: ${bloco.horarios.termino_desfile}
                         </span>
                     </div>

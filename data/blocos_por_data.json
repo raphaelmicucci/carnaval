@@ -6,6 +6,24 @@
    "blocos_por_data": {
       "07/02/2026": [
          {
+            "nome": "Bloco Quem Pede, Pede (Ivete Sangalo)",
+            "data": "07/02/2026",
+            "periodo": "Pré-Carnaval",
+            "subprefeitura": "Vila Mariana",
+            "itinerario": "Obelisco do Ibirapuera",
+            "horarios": {
+               "concentracao": "09:00",
+               "inicio_desfile": "10:00",
+               "termino_desfile": "13:00"
+            },
+            "dia_da_semana": "Sábado",
+            "coordenadas": "-23.583207960619607, -46.65497271321569",
+            "bairro": "Vila Mariana",
+            "lotacao": "Muito lotado, socorro!",
+            "recomendacao": "⭐⭐",
+            "favorito": true
+         },
+         {
             "nome": "Bloco Ritaleena",
             "data": "07/02/2026",
             "periodo": "Pré-Carnaval",
@@ -24,43 +42,43 @@
             "favorito": false
          },
          {
-            "nome": "Forrozin",
+            "nome": "Bloco das Putas Vampiras",
             "data": "07/02/2026",
             "periodo": "Pré-Carnaval",
-            "subprefeitura": "Vila Mariana",
-            "itinerario": "Ibirapuera - Av. Pedro Álvares Cabral, entre Obelisco e Monumento as Bandeiras",
+            "subprefeitura": "Sé",
+            "itinerario": "Lgo. do Paissandu, Av. São João, Av Ipiranga, R. 24 de Maio, Pça. Ramos de Azevedo (em frente ao Theatro Municipal)",
             "horarios": {
-               "concentracao": "12:00",
-               "inicio_desfile": "13:00",
-               "termino_desfile": "15:00"
+               "concentracao": "15:00",
+               "inicio_desfile": "16:00",
+               "termino_desfile": "18:00"
             },
             "dia_da_semana": "Sábado",
-            "coordenadas": "-23.58317098021945, -46.65507484415012",
-            "bairro": "Vila Mariana",
-            "lotacao": "Cheio, mas vale a pena",
-            "recomendacao": "⭐⭐",
-            "favorito": false
-         },
-         {
-            "nome": "Bloco Quem Pede, Pede (Ivete Sangalo)",
-            "data": "07/02/2026",
-            "periodo": "Pré-Carnaval",
-            "subprefeitura": "Vila Mariana",
-            "itinerario": "Obelisco do Ibirapuera",
-            "horarios": {
-               "concentracao": "09:00",
-               "inicio_desfile": "10:00",
-               "termino_desfile": "13:00"
-            },
-            "dia_da_semana": "Sábado",
-            "coordenadas": "-23.583207960619607, -46.65497271321569",
-            "bairro": "Vila Mariana",
-            "lotacao": "Muito lotado, socorro!",
-            "recomendacao": "⭐⭐",
+            "coordenadas": "-23.54284130829067, -46.638382175412964",
+            "bairro": "Centro",
+            "lotacao": "De boas pra SP",
+            "recomendacao": "⭐",
             "favorito": false
          }
       ],
       "08/02/2026": [
+         {
+            "nome": "Bloco Nois Trupica Mas não Cai",
+            "data": "08/02/2026",
+            "periodo": "Pré-Carnaval",
+            "subprefeitura": "Pinheiros",
+            "itinerario": "R. Belmiro Braga, R. Inácio Pereira da Rocha, R. Girassol",
+            "horarios": {
+               "concentracao": "13:00",
+               "inicio_desfile": "14:00",
+               "termino_desfile": "18:00"
+            },
+            "dia_da_semana": "Domingo",
+            "coordenadas": "-23.559672106179583, -46.68723880054492",
+            "bairro": "Pinheiros",
+            "lotacao": "Não sabemos",
+            "recomendacao": "⭐",
+            "favorito": true
+         },
          {
             "nome": "Acadêmicos do Baixo Augusta",
             "data": "08/02/2026",
@@ -80,20 +98,20 @@
             "favorito": false
          },
          {
-            "nome": "Bloco Carimbolando",
+            "nome": "Bloco Skol",
             "data": "08/02/2026",
             "periodo": "Pré-Carnaval",
             "subprefeitura": "Sé",
-            "itinerario": "R. Martim Francisco, R. Imaculada Conceição, R. Barão de Tatuí, R. Jaguaribe, R. Martim Francisco",
+            "itinerario": "R. Da Consolação, 2101 ao 585",
             "horarios": {
-               "concentracao": "10:00",
-               "inicio_desfile": "11:00",
-               "termino_desfile": "15:00"
+               "concentracao": "11:00",
+               "inicio_desfile": "12:00",
+               "termino_desfile": "17:00"
             },
             "dia_da_semana": "Domingo",
-            "coordenadas": "-23.54135086776441, -46.65438560404431",
+            "coordenadas": "-23.55362004388779, -46.66004216067779",
             "bairro": "Centro",
-            "lotacao": "De boas pra SP",
+            "lotacao": "Muito lotado, socorro!",
             "recomendacao": "⭐⭐",
             "favorito": false
          }
@@ -116,10 +134,28 @@
             "bairro": "Centro",
             "lotacao": "De boas pra SP",
             "recomendacao": "⭐⭐",
-            "favorito": false
+            "favorito": true
          }
       ],
       "14/02/2026": [
+         {
+            "nome": "Bloco Je Treme Mon Amour",
+            "data": "14/02/2026",
+            "periodo": "Carnaval",
+            "subprefeitura": "Sé",
+            "itinerario": "R. Rui Barbosa, R. João Passalaqua, R. Santo Antônio, R. Treze de Maio, Pça. Dom Orione",
+            "horarios": {
+               "concentracao": "12:00",
+               "inicio_desfile": "13:00",
+               "termino_desfile": "16:00"
+            },
+            "dia_da_semana": "Sábado",
+            "coordenadas": "-23.560412068287775, -46.645169449125504",
+            "bairro": "Centro",
+            "lotacao": "Cheio, mas vale a pena",
+            "recomendacao": "⭐⭐⭐",
+            "favorito": true
+         },
          {
             "nome": "Bloco Carimbolando",
             "data": "14/02/2026",
@@ -139,39 +175,21 @@
             "favorito": false
          },
          {
-            "nome": "Bloco Je Treme Mon Amour",
+            "nome": "Unidos do BPM",
             "data": "14/02/2026",
-            "periodo": "Carnaval",
+            "periodo": "Período-Carnaval",
             "subprefeitura": "Sé",
-            "itinerario": "R. Rui Barbosa, R. João Passalaqua, R. Santo Antônio, R. Treze de Maio, Pça. Dom Orione",
+            "itinerario": "R. Augusta, 1300 x R. Matias Aires até R. Martins Fontes, 205 x R. Álvaro de Carvalho",
             "horarios": {
-               "concentracao": "12:00",
-               "inicio_desfile": "13:00",
-               "termino_desfile": "16:00"
+               "concentracao": "13:00",
+               "inicio_desfile": "14:00",
+               "termino_desfile": "18:00"
             },
             "dia_da_semana": "Sábado",
-            "coordenadas": "-23.560412068287775, -46.645169449125504",
-            "bairro": "Centro",
+            "coordenadas": "-23.555409648495683, -46.657314173560934",
+            "bairro": "Consolação",
             "lotacao": "Cheio, mas vale a pena",
-            "recomendacao": "⭐⭐⭐",
-            "favorito": false
-         },
-         {
-            "nome": "Manada",
-            "data": "14/02/2026",
-            "periodo": "Carnaval",
-            "subprefeitura": "Sé",
-            "itinerario": "R. Conselheiro Brotero, R. Capistrano de Abreu, R. Lopes de Oliveira, R. Vitorino Camilo, R. Sousa Lima, R. Camerino, R. Lopes de Oliveira, R. Vitorino Camilo, R. Sousa Lima",
-            "horarios": {
-               "concentracao": "8:00",
-               "inicio_desfile": "9:00",
-               "termino_desfile": "13:00"
-            },
-            "dia_da_semana": "Sábado",
-            "coordenadas": "-23.52910370209983, -46.65606242393298",
-            "bairro": "Centro",
-            "lotacao": "Cheio, mas vale a pena",
-            "recomendacao": "⭐",
+            "recomendacao": "⭐⭐",
             "favorito": false
          },
          {
@@ -194,6 +212,24 @@
          }
       ],
       "15/02/2026": [
+         {
+            "nome": "Fanfarra Xamego",
+            "data": "15/02/2026",
+            "periodo": "Carnaval",
+            "subprefeitura": "Lapa",
+            "itinerario": "R. dos Americanos, R. Conego Vicente Miguel Marino, R. Anhanguera, R. Luigi Greco, R. Cruzeiro, R. Padre Luís Alves de Siqueira",
+            "horarios": {
+               "concentracao": "11:00",
+               "inicio_desfile": "12:00",
+               "termino_desfile": "16:00"
+            },
+            "dia_da_semana": "Domingo",
+            "coordenadas": "-23.52253090076349, -46.65554907781279",
+            "bairro": "Lapa",
+            "lotacao": "Não sabemos",
+            "recomendacao": "⭐⭐⭐",
+            "favorito": true
+         },
          {
             "nome": "Bloco Saia de Chita",
             "data": "15/02/2026",
@@ -227,24 +263,6 @@
             "coordenadas": "-23.56227172296292, -46.70325246307963",
             "bairro": "Pinheiros",
             "lotacao": "Cheio, mas vale a pena",
-            "recomendacao": "⭐⭐",
-            "favorito": false
-         },
-         {
-            "nome": "Bloco Ritaleena",
-            "data": "15/02/2026",
-            "periodo": "Carnaval",
-            "subprefeitura": "Santo Amaro",
-            "itinerario": "Av. Eng. Eusébio Estevaux (entre R. Maria Clara Martins da Silveira e R. Moacir Padilha)",
-            "horarios": {
-               "concentracao": "12:00",
-               "inicio_desfile": "13:00",
-               "termino_desfile": "17:00"
-            },
-            "dia_da_semana": "Domingo",
-            "coordenadas": "-23.67343477591183, -46.69836448287852",
-            "bairro": "Santo Amaro",
-            "lotacao": "Muito lotado, socorro!",
             "recomendacao": "⭐⭐",
             "favorito": false
          },
@@ -283,24 +301,6 @@
             "lotacao": "Muito lotado, socorro!",
             "recomendacao": "⭐⭐",
             "favorito": false
-         },
-         {
-            "nome": "Fanfarra Xamego",
-            "data": "15/02/2026",
-            "periodo": "Carnaval",
-            "subprefeitura": "Lapa",
-            "itinerario": "R. dos Americanos, R. Conego Vicente Miguel Marino, R. Anhanguera, R. Luigi Greco, R. Cruzeiro, R. Padre Luís Alves de Siqueira",
-            "horarios": {
-               "concentracao": "11:00",
-               "inicio_desfile": "12:00",
-               "termino_desfile": "16:00"
-            },
-            "dia_da_semana": "Domingo",
-            "coordenadas": "-23.52253090076349, -46.65554907781279",
-            "bairro": "Lapa",
-            "lotacao": "Não sabemos",
-            "recomendacao": "⭐⭐⭐",
-            "favorito": false
          }
       ],
       "16/02/2026": [
@@ -320,7 +320,7 @@
             "bairro": "Centro",
             "lotacao": "Muito lotado, socorro!",
             "recomendacao": "⭐⭐⭐",
-            "favorito": false
+            "favorito": true
          },
          {
             "nome": "Bloco Filhos de Gil",
@@ -361,24 +361,6 @@
       ],
       "17/02/2026": [
          {
-            "nome": "Acadêmicos da Cerca Frango",
-            "data": "17/02/2026",
-            "periodo": "Carnaval",
-            "subprefeitura": "Lapa",
-            "itinerario": "Pça. Jesuíno Bandeira, R. Bárbara Heliodora, R. Vespasiano, R. Armando Brussolo, R. Marco Aurélio, Pça. Jesuíno Bandeira, R. Jesuíno Bandeira, R. Bárbara Heliodora, Pça. Diogo do Amaral",
-            "horarios": {
-               "concentracao": "09:00",
-               "inicio_desfile": "10:00",
-               "termino_desfile": "14:00"
-            },
-            "dia_da_semana": "Terça-feira",
-            "coordenadas": "-23.535264449934367, -46.696330531864426",
-            "bairro": "Lapa",
-            "lotacao": "Não sabemos",
-            "recomendacao": "⭐⭐⭐",
-            "favorito": false
-         },
-         {
             "nome": "Bloco Agora Vai",
             "data": "17/02/2026",
             "periodo": "Carnaval",
@@ -393,6 +375,24 @@
             "coordenadas": "-23.529075484296374, -46.65164724020025",
             "bairro": "Centro",
             "lotacao": "Cheio, mas vale a pena",
+            "recomendacao": "⭐⭐⭐",
+            "favorito": true
+         },
+         {
+            "nome": "Acadêmicos da Cerca Frango",
+            "data": "17/02/2026",
+            "periodo": "Carnaval",
+            "subprefeitura": "Lapa",
+            "itinerario": "Pça. Jesuíno Bandeira, R. Bárbara Heliodora, R. Vespasiano, R. Armando Brussolo, R. Marco Aurélio, Pça. Jesuíno Bandeira, R. Jesuíno Bandeira, R. Bárbara Heliodora, Pça. Diogo do Amaral",
+            "horarios": {
+               "concentracao": "09:00",
+               "inicio_desfile": "10:00",
+               "termino_desfile": "14:00"
+            },
+            "dia_da_semana": "Terça-feira",
+            "coordenadas": "-23.535264449934367, -46.696330531864426",
+            "bairro": "Lapa",
+            "lotacao": "Não sabemos",
             "recomendacao": "⭐⭐⭐",
             "favorito": false
          },
@@ -451,27 +451,27 @@
             "lotacao": "Cheio, mas vale a pena",
             "recomendacao": "⭐⭐⭐",
             "favorito": false
-         }
-      ],
-      "22/02/2026": [
+         },
          {
-            "nome": "Te Pego no Cantinho",
-            "data": "22/02/2026",
+            "nome": "Heavy Bloco",
+            "data": "21/02/2026",
             "periodo": "Pós-Carnaval",
-            "subprefeitura": "Butantã",
-            "itinerario": "R. Boturoca, R. Iquiririm, R. Castor da Silva, R. Nobre Vieira",
+            "subprefeitura": "Pinheiros",
+            "itinerario": "R. dos Pinheiros, R. Simão Alvares, R. dos Pinheiros, R. Conego Eugenio Leite",
             "horarios": {
                "concentracao": "14:00",
                "inicio_desfile": "15:00",
                "termino_desfile": "18:00"
             },
-            "dia_da_semana": "Domingo",
-            "coordenadas": "-23.572862115332878, -46.727871770681354",
-            "bairro": "Butantã",
-            "lotacao": "Não sabemos",
+            "dia_da_semana": "Sábado",
+            "coordenadas": "-23.566381089238057, -46.68472496006826",
+            "bairro": "Pinheiros",
+            "lotacao": "Cheio, mas vale a pena",
             "recomendacao": "⭐⭐",
             "favorito": false
-         },
+         }
+      ],
+      "22/02/2026": [
          {
             "nome": "Bloco de Pífanos de São Paulo",
             "data": "22/02/2026",
@@ -487,6 +487,24 @@
             "coordenadas": "-23.55779545492305, -46.68756831218526",
             "bairro": "Vila Madalena",
             "lotacao": "De boas pra SP",
+            "recomendacao": "⭐⭐",
+            "favorito": true
+         },
+         {
+            "nome": "Te Pego no Cantinho",
+            "data": "22/02/2026",
+            "periodo": "Pós-Carnaval",
+            "subprefeitura": "Butantã",
+            "itinerario": "R. Boturoca, R. Iquiririm, R. Castor da Silva, R. Nobre Vieira",
+            "horarios": {
+               "concentracao": "14:00",
+               "inicio_desfile": "15:00",
+               "termino_desfile": "18:00"
+            },
+            "dia_da_semana": "Domingo",
+            "coordenadas": "-23.572862115332878, -46.727871770681354",
+            "bairro": "Butantã",
+            "lotacao": "Não sabemos",
             "recomendacao": "⭐⭐",
             "favorito": false
          },
