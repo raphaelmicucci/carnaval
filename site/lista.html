@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Blocos - Carnaval São Paulo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="page-header">
+            <a href="index.html" class="btn-back"><i data-feather="arrow-left" class="icon-small"></i> Voltar</a>
+            <h1>Lista de Blocos</h1>
+        </header>
+
+        <div class="page-content">
+            <!-- Filtros (Sidebar) -->
+            <aside class="filters-panel" id="filtersPanel">
+                <div class="filters-header">
+                    <h3><i data-feather="sliders" class="icon-small"></i> FILTROS</h3>
+                    <button id="toggleFilters" class="toggle-filters">
+                        <i data-feather="chevron-down" class="icon-small"></i>
+                    </button>
+                </div>
+
+                <div class="filters-content collapsed" id="filtersContent">
+
+                <!-- Filtro: Período -->
+                <div class="filter-group">
+                    <label>Período</label>
+                    <div id="filterPeriodo" class="filter-options">
+                        <!-- preenchido via JS -->
+                    </div>
+                </div>
+
+                <!-- Filtro: Data -->
+                <div class="filter-group">
+                    <label>Data</label>
+                    <div id="filterData" class="filter-options">
+                        <!-- preenchido via JS -->
+                    </div>
+                </div>
+
+                <!-- Filtro: Bairro -->
+                <div class="filter-group">
+                    <label>Bairro</label>
+                    <div id="filterBairro" class="filter-options">
+                        <!-- preenchido via JS -->
+                    </div>
+                </div>
+
+                <!-- Filtro: Lotação -->
+                <div class="filter-group">
+                    <label>Lotação</label>
+                    <div id="filterLotacao" class="filter-options">
+                        <!-- preenchido via JS -->
+                    </div>
+                </div>
+
+                <button id="btnLimparFiltros" class="btn-reset">Limpar Filtros</button>
+                </div>
+            </aside>
+
+            <!-- Cards de Blocos -->
+            <main class="blocks-container">
+                <div id="blocosList" class="blocos-grid">
+                    <!-- preenchido via JS -->
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script src="js/lista.js"></script>
+    <button id="btnScrollTop" class="btn-scroll-top" onclick="scrollToTop()"><i data-feather="arrow-up" class="icon-small"></i></button>
+</body>
+</html>

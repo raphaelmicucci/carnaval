@@ -1,0 +1,763 @@
+/* ========================================
+   DIGITAL BRUTALIST - CARNAVAL SÃO PAULO
+   ======================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cores (Carnaval SP) */
+:root {
+    --color-primary: #bd3871;   /* Rosa/Pink */
+    --color-secondary: #6acdca; /* Turquesa/Teal */
+    --color-tertiary: #c4642d;  /* Laranja/Marrom */
+    --white: #fff;
+    --black: #000;
+    --gray-light: #f5f5f5;
+    --gray-dark: #333;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--white);
+    color: var(--black);
+    line-height: 1.6;
+}
+
+/* ========================================
+   LAYOUT GERAL
+   ======================================== */
+
+.container {
+    max-width: 100%;
+    padding: 1rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* ========================================
+   NAVBAR
+   ======================================== */
+
+.navbar {
+    background: var(--black);
+    color: var(--white);
+    padding: 1rem;
+    border-bottom: 3px solid var(--color-primary);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-content {
+    max-width: 100%;
+    padding: 0 1rem;
+}
+
+.nav-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    margin: 0;
+}
+
+/* ========================================
+   HOMEPAGE
+   ======================================== */
+
+/* Fotos em Destaque */
+.featured-photo {
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+.featured-photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 2px solid var(--black);
+}
+
+/* Introdução */
+.intro-section {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 2px solid var(--black);
+    background: var(--gray-light);
+}
+
+.intro-section p {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* CTA Buttons */
+.cta-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: block;
+    padding: 1rem;
+    border: 2px solid var(--black);
+    background: var(--color-primary);
+    color: var(--white);
+    font-size: 0.9rem;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.btn:hover {
+    background: var(--black);
+    color: var(--white);
+    transform: translate(-2px, -2px);
+}
+
+.btn-primary {
+    background: var(--color-primary);
+}
+
+.btn-secondary {
+    background: var(--color-secondary);
+    color: var(--black);
+}
+
+.btn-secondary:hover {
+    background: var(--black);
+    color: var(--color-secondary);
+}
+
+/* ========================================
+   PÁGINAS INTERNAS
+   ======================================== */
+
+.page-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--black);
+}
+
+.page-header h1 {
+    font-size: 1.8rem;
+    font-weight: normal;
+    flex: 1;
+}
+
+.btn-back {
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--black);
+    background: var(--white);
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.2s;
+}
+
+.btn-back:hover {
+    background: var(--black);
+    color: var(--white);
+}
+
+/* ========================================
+   PÁGINA: LISTA DE BLOCOS
+   ======================================== */
+
+.page-content {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 2rem;
+}
+
+/* Filtros Sidebar */
+.filters-panel {
+    border: 2px solid var(--black);
+    padding: 0;
+    background: var(--gray-light);
+    height: fit-content;
+    position: sticky;
+    top: 0;
+    z-index: 90;
+}
+
+.filters-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 2px solid var(--black);
+    background: var(--gray-light);
+}
+
+.filters-header h3 {
+    font-size: 1rem;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.toggle-filters {
+    background: var(--gray-light);
+    border: 2px solid var(--black);
+    padding: 0.35rem 0.6rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle-filters:hover {
+    background: var(--color-primary);
+    color: var(--white);
+}
+
+.filters-content {
+    padding: 1.5rem;
+    display: block;
+    max-height: 500px;
+    overflow-y: auto;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.filters-content.collapsed {
+    max-height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.filter-group {
+    margin-bottom: 1.5rem;
+}
+
+.filter-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.filter-options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.filter-options input[type="checkbox"] {
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.filter-options label {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    margin: 0;
+    cursor: pointer;
+}
+
+.btn-reset {
+    width: 100%;
+    padding: 0.75rem;
+    background: var(--black);
+    color: var(--white);
+    border: 2px solid var(--black);
+    cursor: pointer;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+}
+
+.btn-reset:hover {
+    background: var(--white);
+    color: var(--black);
+}
+
+/* Blocos Container */
+.blocks-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.blocos-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.bloco-card {
+    border: 2px solid var(--black);
+    padding: 0;
+    background: var(--white);
+    transition: all 0.2s;
+    overflow: hidden;
+}
+
+.bloco-card.with-photo {
+    padding: 0;
+}
+
+.bloco-card.with-photo .bloco-photo {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.bloco-card.without-photo {
+    padding: 0;
+}
+
+.bloco-header-wrapper {
+    padding: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.bloco-card.with-photo .bloco-header-wrapper {
+    padding-top: 1.5rem;
+}
+
+.bloco-card:hover {
+    background: var(--gray-light);
+}
+
+.bloco-header {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.bloco-header-left {
+    flex: 1;
+}
+
+.bloco-header h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.bloco-meta {
+    font-size: 0.8rem;
+    color: var(--gray-dark);
+    margin-top: 0.4rem;
+}
+
+.bloco-recomendacao {
+    font-size: 1.3rem;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.bloco-content {
+    display: none;
+    margin-top: 1.5rem;
+}
+
+.bloco-content.active {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.bloco-card.without-photo .bloco-content {
+    padding: 0 0 1.5rem 0;
+}
+
+.bloco-card.with-photo .bloco-content {
+    padding: 0 0 1.5rem 0;
+}
+
+.bloco-field {
+    margin-bottom: 0.75rem;
+}
+
+.bloco-field strong {
+    font-weight: bold;
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+}
+
+.bloco-field span {
+    font-size: 0.9rem;
+    color: var(--gray-dark);
+}
+
+/* Botão Google Maps */
+.btn-maps {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--black);
+    background: var(--color-secondary);
+    color: var(--black);
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-decoration: none;
+    align-self: flex-end;
+}
+
+.btn-maps:hover {
+    background: var(--black);
+    color: var(--color-secondary);
+}
+
+.btn-maps svg {
+    width: 18px;
+    height: 18px;
+    stroke-width: 2;
+}
+
+/* Ícones Feather pequenos */
+.icon-small {
+    width: 18px;
+    height: 18px;
+    stroke-width: 2;
+}
+
+.icon-small svg {
+    width: 18px;
+    height: 18px;
+    stroke-width: 2;
+}
+
+/* ========================================
+   PÁGINA: MAPA
+   ======================================== */
+
+.map-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0;
+}
+
+.map-container .page-header {
+    padding: 1.5rem;
+    border-bottom: 2px solid var(--black);
+    margin-bottom: 0;
+}
+
+.map-wrapper {
+    flex: 1;
+    position: relative;
+    border: 2px solid var(--black);
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+/* Modal de Filtros */
+.filter-modal {
+    position: fixed;
+    bottom: 80px;
+    right: 1rem;
+    width: 280px;
+    background: var(--white);
+    border: 2px solid var(--black);
+    padding: 1.5rem;
+    max-height: 70vh;
+    overflow-y: auto;
+    z-index: 1000;
+    display: none;
+}
+
+.filter-modal.active {
+    display: block;
+}
+
+.filter-modal-content h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 2px solid var(--black);
+    padding-bottom: 0.5rem;
+}
+
+.btn-close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0;
+}
+
+/* Botão Flutuante */
+.btn-filter-toggle {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1rem;
+    padding: 0.75rem 1.5rem;
+    background: var(--black);
+    color: var(--white);
+    border: 2px solid var(--black);
+    cursor: pointer;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    font-size: 0.9rem;
+    z-index: 999;
+    transition: all 0.2s;
+}
+
+.btn-filter-toggle:hover {
+    background: var(--white);
+    color: var(--black);
+}
+
+/* ========================================
+   RESPONSIVO MOBILE
+   ======================================== */
+
+@media (max-width: 768px) {
+    .page-content {
+        grid-template-columns: 1fr;
+    }
+
+    .filters-panel {
+        position: static;
+        margin-bottom: 2rem;
+    }
+
+    .intro-section h1 {
+        font-size: 1.5rem;
+    }
+
+    .page-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .page-header h1 {
+        font-size: 1.5rem;
+    }
+
+    .gallery-container {
+        aspect-ratio: 4 / 3;
+    }
+
+    .btn {
+        padding: 1rem;
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .intro-section {
+        padding: 1rem;
+    }
+
+    .intro-section h1 {
+        font-size: 1.3rem;
+    }
+
+    .intro-section p {
+        font-size: 0.9rem;
+    }
+
+    .gallery-arrow {
+        font-size: 1.5rem;
+        padding: 0.25rem 0.75rem;
+    }
+
+    .bloco-card {
+        padding: 1rem;
+    }
+
+    .filter-modal {
+        width: calc(100vw - 2rem);
+        bottom: 70px;
+    }
+}
+
+/* ========================================
+   PÁGINA: GALERIA
+   ======================================== */
+
+.galeria-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0;
+}
+
+.galeria-container .page-header {
+    padding: 1.5rem;
+    border-bottom: 2px solid var(--black);
+    margin-bottom: 0;
+}
+
+.gallery-full {
+    flex: 1;
+    position: relative;
+    border: 2px solid var(--black);
+}
+
+.swiper.gallerySwiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    width: 50px;
+    height: 50px;
+    background: var(--color-primary);
+    color: var(--white);
+    border-radius: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.swiper-button-prev {
+    left: 1rem;
+}
+
+.swiper-button-next {
+    right: 1rem;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    background: var(--color-tertiary);
+    color: var(--white);
+}
+
+.swiper-pagination {
+    bottom: 1rem;
+}
+
+.swiper-pagination-bullet {
+    background: var(--black);
+    opacity: 0.5;
+    width: 10px;
+    height: 10px;
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--color-secondary);
+    opacity: 1;
+}
+
+/* Botão Scroll to Top */
+.btn-scroll-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 50px;
+    height: 50px;
+    background: var(--color-primary);
+    color: var(--white);
+    border: 2px solid var(--black);
+    border-radius: 0;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    transition: all 0.2s;
+    padding: 0;
+}
+
+.btn-scroll-top.show {
+    display: flex;
+}
+
+.btn-scroll-top:hover {
+    background: var(--black);
+    color: var(--color-primary);
+}
+
+/* Botão Scroll to Top */
+.btn-scroll-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 50px;
+    height: 50px;
+    background: var(--color-primary);
+    color: var(--white);
+    border: 2px solid var(--black);
+    border-radius: 0;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    transition: all 0.2s;
+}
+
+.btn-scroll-top.show {
+    display: flex;
+}
+
+.btn-scroll-top:hover {
+    background: var(--black);
+    color: var(--color-primary);
+}

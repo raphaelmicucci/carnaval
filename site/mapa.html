@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa - Carnaval São Paulo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+</head>
+<body>
+    <div class="container map-container">
+        <!-- Header -->
+        <header class="page-header">
+            <a href="index.html" class="btn-back"><i data-feather="arrow-left" class="icon-small"></i> Voltar</a>
+            <h1>Mapa de Blocos</h1>
+        </header>
+
+        <!-- Mapa -->
+        <div id="map" class="map-wrapper"></div>
+
+        <!-- Filtros (Modal Flutuante) -->
+        <div id="filterModal" class="filter-modal">
+            <div class="filter-modal-content">
+                <button id="closeModalBtn" class="btn-close" onclick="toggleFilterModal()"><i data-feather="x" class="icon-small"></i></button>
+                <h3><i data-feather="sliders" class="icon-small"></i> Filtros</h3>
+
+                <!-- Filtro: Período -->
+                <div class="filter-group">
+                    <label>Período</label>
+                    <div id="mapFilterPeriodo" class="filter-options">
+                        <!-- preenchido via JS -->
+                    </div>
+                </div>
+
+                <!-- Filtro: Data -->
+                <div class="filter-group">
+                    <label>Data</label>
+                    <div id="mapFilterData" class="filter-options">
+                        <!-- preenchido via JS -->
+                    </div>
+                </div>
+
+                <!-- Filtro: Bairro -->
+                <div class="filter-group">
+                    <label>Bairro</label>
+                    <div id="mapFilterBairro" class="filter-options">
+                        <!-- preenchido via JS -->
+                    </div>
+                </div>
+
+                <!-- Filtro: Lotação -->
+                <div class="filter-group">
+                    <label>Lotação</label>
+                    <div id="mapFilterLotacao" class="filter-options">
+                        <!-- preenchido via JS -->
+                    </div>
+                </div>
+
+                <button id="mapBtnLimpar" class="btn-reset">Limpar Filtros</button>
+            </div>
+        </div>
+
+        <!-- Botão Flutuante para Abrir Filtros -->
+        <button id="btnAbrirFiltros" class="btn-filter-toggle" onclick="toggleFilterModal()"><i data-feather="sliders" class="icon-small"></i> Filtros</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/mapa.js"></script>
+    <button id="btnScrollTop" class="btn-scroll-top" onclick="scrollToTop()"><i data-feather="arrow-up" class="icon-small"></i></button>
+</body>
+</html>
