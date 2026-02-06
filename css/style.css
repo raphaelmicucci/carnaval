@@ -266,7 +266,7 @@ a[href="galeria.html"] {
 
 .modal-creditos-content {
     background-color: var(--white);
-    margin: 10% auto;
+    margin: 5vh auto;
     padding: 2rem;
     border: 3px solid var(--black);
     width: 90%;

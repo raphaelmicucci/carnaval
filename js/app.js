@@ -101,12 +101,13 @@ function initCreditosModal() {
         modalCreditos.classList.remove('active');
     });
 
-    // Fechar modal ao clicar fora do conteúdo
-    window.addEventListener('click', (event) => {
+    // Fechar modal ao clicar fora do conteúdo (apenas uma vez)
+    const handleOutsideClick = (event) => {
         if (event.target === modalCreditos) {
             modalCreditos.classList.remove('active');
         }
-    });
+    };
+    window.addEventListener('click', handleOutsideClick);
 }
 
 // Função: Inicializar Countdown
