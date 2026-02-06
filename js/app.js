@@ -80,7 +80,34 @@ document.addEventListener('DOMContentLoaded', async () => {
     await loadBlocos();
     initScrollToTopButton();
     initCountdown();
+    initCreditosModal();
 });
+
+// Função: Inicializar Modal de Créditos
+function initCreditosModal() {
+    const btnCreditos = document.getElementById('btnCreditos');
+    const modalCreditos = document.getElementById('modalCreditos');
+    const btnCloseModal = document.getElementById('btnCloseModal');
+
+    if (!btnCreditos || !modalCreditos || !btnCloseModal) return;
+
+    // Abrir modal
+    btnCreditos.addEventListener('click', () => {
+        modalCreditos.classList.add('active');
+    });
+
+    // Fechar modal ao clicar no botão de fechar
+    btnCloseModal.addEventListener('click', () => {
+        modalCreditos.classList.remove('active');
+    });
+
+    // Fechar modal ao clicar fora do conteúdo
+    window.addEventListener('click', (event) => {
+        if (event.target === modalCreditos) {
+            modalCreditos.classList.remove('active');
+        }
+    });
+}
 
 // Função: Inicializar Countdown
 function initCountdown() {

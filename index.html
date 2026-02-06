@@ -47,21 +47,8 @@
 
         <!-- Introdução -->
         <section class="intro-section">
-            <p class="creditos">
-                É com grande alegria que o Unidos do Centro-Sul lança a curadoria do Carnaval SP 2026.<br><br>
-                <strong>Projeto gráfico:</strong> Samu<br>
-                <strong>Garoto de programa:</strong> Rapha Micurti<br>
-                <strong>Figurino:</strong> Lih<br>
-                <strong>Palhaçaria:</strong> Felipinho<br>
-                <strong>Musicalidade:</strong> Paloma<br>
-                <strong>Coreografia:</strong> Vitinho<br>
-                <strong>Especialista em amizades com estranhos:</strong> Bilanca<br>
-                <strong>Fornecimento de artigos fumísticos:</strong> Edu<br>
-                <strong>Fornecimento de bebidas inebriantes:</strong> Vivi<br>
-                <strong>Fornecimento de água:</strong> Leo<br>
-                <strong>Protetor solar:</strong> Enrico<br>
-                <strong>Decoro:</strong> Arthur<br>
-                <strong>Fotografia:</strong> Bea
+            <p>
+                É com grande alegria que o Unidos do Centro-Sul lança a curadoria do Carnaval SP 2026.
             </p>
         </section>
 
@@ -76,10 +63,36 @@
             <a href="galeria.html" class="btn btn-secondary">
                 <span>GALERIA</span>
             </a>
+            <button id="btnCreditos" class="btn btn-creditos">
+                <span>CRÉDITOS</span>
+            </button>
         </section>
     </div>
 
     <button id="btnScrollTop" class="btn-scroll-top" onclick="scrollToTop()"><i data-feather="arrow-up" class="icon-small"></i></button>
+
+    <!-- Modal de Créditos -->
+    <div id="modalCreditos" class="modal-creditos">
+        <div class="modal-creditos-content">
+            <button class="modal-close" id="btnCloseModal">&times;</button>
+            <h2>CRÉDITOS</h2>
+            <div class="creditos-list">
+                <p><strong>Projeto gráfico:</strong> Samu</p>
+                <p><strong>Garoto de programa:</strong> Rapha Micurti</p>
+                <p><strong>Figurino:</strong> Lih</p>
+                <p><strong>Palhaçaria:</strong> Felipinho</p>
+                <p><strong>Musicalidade:</strong> Paloma</p>
+                <p><strong>Coreografia:</strong> Vitinho</p>
+                <p><strong>Especialista em amizades com estranhos:</strong> Bilanca</p>
+                <p><strong>Fornecimento de artigos fumísticos:</strong> Edu</p>
+                <p><strong>Fornecimento de bebidas inebriantes:</strong> Vivi</p>
+                <p><strong>Fornecimento de água:</strong> Leo</p>
+                <p><strong>Protetor solar:</strong> Enrico</p>
+                <p><strong>Decoro:</strong> Arthur</p>
+                <p><strong>Fotografia:</strong> Bea</p>
+            </div>
+        </div>
+    </div>
 
     <script src="js/app.js"></script>
 </body>
