@@ -236,6 +236,91 @@ a[href="galeria.html"] {
     color: var(--color-secondary);
 }
 
+/* Botão Créditos */
+.btn-creditos {
+    background: var(--black);
+    color: var(--white);
+}
+
+.btn-creditos:hover {
+    background: var(--white);
+    color: var(--black);
+}
+
+/* Modal de Créditos */
+.modal-creditos {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-creditos.active {
+    display: block;
+}
+
+.modal-creditos-content {
+    background-color: var(--white);
+    margin: 5vh auto;
+    padding: 2rem;
+    border: 3px solid var(--black);
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+}
+
+.modal-creditos-content h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-bottom: 2px solid var(--black);
+    padding-bottom: 0.5rem;
+}
+
+.modal-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: var(--black);
+    color: var(--white);
+    border: none;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    transition: all 0.2s;
+}
+
+.modal-close:hover {
+    background: var(--color-primary);
+}
+
+.creditos-list {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.creditos-list p {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    margin-bottom: 0.5rem;
+}
+
+.creditos-list strong {
+    font-weight: bold;
+}
+
 /* ========================================
    PÁGINAS INTERNAS
    ======================================== */
