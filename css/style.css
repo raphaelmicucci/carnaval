@@ -97,6 +97,7 @@ a {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: bold;
+    white-space: nowrap;
 }
 
 .countdown-display {
@@ -104,13 +105,15 @@ a {
     gap: 1rem;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin: 1rem 0;
+    overflow-x: auto;
 }
 
 .countdown-unit {
     text-align: center;
-    min-width: 70px;
+    min-width: 60px;
+    flex-shrink: 0;
 }
 
 .countdown-number {
@@ -119,6 +122,7 @@ a {
     font-weight: bold;
     line-height: 1;
     display: block;
+    white-space: nowrap;
 }
 
 .countdown-label {
@@ -127,6 +131,7 @@ a {
     text-transform: uppercase;
     margin-top: 0.5rem;
     letter-spacing: 0.05em;
+    white-space: nowrap;
 }
 
 .countdown-post-text {
@@ -136,6 +141,7 @@ a {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: bold;
+    white-space: nowrap;
 }
 
 .countdown-ended {

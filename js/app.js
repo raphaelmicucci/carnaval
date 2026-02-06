@@ -106,9 +106,8 @@ function initCountdown() {
             return;
         }
 
-        // Calcular tempo restante
-        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        // Calcular tempo restante (total de horas, sem dias)
+        const totalHours = Math.floor(distance / (1000 * 60 * 60));
         const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
@@ -117,11 +116,7 @@ function initCountdown() {
             <div class="countdown-pre-text">Faltam</div>
             <div class="countdown-display">
                 <div class="countdown-unit">
-                    <span class="countdown-number">${String(days).padStart(2, '0')}</span>
-                    <span class="countdown-label">Dias</span>
-                </div>
-                <div class="countdown-unit">
-                    <span class="countdown-number">${String(hours).padStart(2, '0')}</span>
+                    <span class="countdown-number">${String(totalHours).padStart(2, '0')}</span>
                     <span class="countdown-label">Horas</span>
                 </div>
                 <div class="countdown-unit">
