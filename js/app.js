@@ -81,6 +81,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     initScrollToTopButton();
     initCountdown();
     initCreditosModal();
+    initMacetandoButton();
 });
 
 // Função: Inicializar Modal de Créditos
@@ -108,6 +109,22 @@ function initCreditosModal() {
         }
     };
     window.addEventListener('click', handleOutsideClick);
+}
+
+// Função: Inicializar Botão Macetando
+function initMacetandoButton() {
+    const btnMacetando = document.getElementById('btnMacetando');
+    const spotifyEmbed = document.getElementById('spotifyEmbed');
+    
+    if (!btnMacetando || !spotifyEmbed) return;
+
+    btnMacetando.addEventListener('click', () => {
+        if (spotifyEmbed.style.display === 'none') {
+            spotifyEmbed.style.display = 'block';
+        } else {
+            spotifyEmbed.style.display = 'none';
+        }
+    });
 }
 
 // Função: Inicializar Countdown
