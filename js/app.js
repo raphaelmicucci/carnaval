@@ -119,11 +119,7 @@ function initMacetandoButton() {
     if (!btnMacetando || !spotifyEmbed) return;
 
     btnMacetando.addEventListener('click', () => {
-        if (spotifyEmbed.style.display === 'none') {
-            spotifyEmbed.style.display = 'block';
-        } else {
-            spotifyEmbed.style.display = 'none';
-        }
+        spotifyEmbed.classList.toggle('hidden');
     });
 }
 

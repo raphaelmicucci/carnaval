@@ -106,16 +106,14 @@ a {
     line-height: 1;
 }
 
-.btn-macetando svg {
-    width: 18px;
-    height: 18px;
-    stroke-width: 2;
-}
-
 .spotify-embed-container {
     margin-top: 1rem;
     border: 2px solid var(--black);
     overflow: hidden;
+}
+
+.spotify-embed-container.hidden {
+    display: none;
 }
 
 .spotify-embed-container iframe {
