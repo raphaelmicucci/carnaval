@@ -85,7 +85,7 @@ a {
     background: var(--black);
     color: var(--white);
     font-family: 'Courier New', Courier, monospace;
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem;
     border: 3px solid var(--color-primary);
     text-align: center;
 }
@@ -743,7 +743,7 @@ a[href="galeria.html"] {
 
     /* Countdown extra pequeno */
     #countdown-container {
-        padding: 1.5rem 0.5rem;
+        padding: 1rem 0.5rem;
     }
 
     .countdown-display {
