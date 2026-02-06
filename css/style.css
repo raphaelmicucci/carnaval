@@ -102,12 +102,11 @@ a {
 
 .countdown-display {
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
     margin: 1rem 0;
-    overflow-x: auto;
 }
 
 .countdown-unit {
@@ -687,6 +686,28 @@ a[href="galeria.html"] {
         padding: 1rem;
         font-size: 0.95rem;
     }
+
+    /* Countdown responsivo */
+    .countdown-display {
+        gap: 0.5rem;
+    }
+
+    .countdown-unit {
+        min-width: 50px;
+    }
+
+    .countdown-number {
+        font-size: 2rem;
+    }
+
+    .countdown-label {
+        font-size: 0.65rem;
+    }
+
+    .countdown-pre-text,
+    .countdown-post-text {
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -718,6 +739,32 @@ a[href="galeria.html"] {
     .filter-modal {
         width: calc(100vw - 2rem);
         bottom: 70px;
+    }
+
+    /* Countdown extra pequeno */
+    #countdown-container {
+        padding: 1.5rem 0.5rem;
+    }
+
+    .countdown-display {
+        gap: 0.3rem;
+    }
+
+    .countdown-unit {
+        min-width: 45px;
+    }
+
+    .countdown-number {
+        font-size: 1.75rem;
+    }
+
+    .countdown-label {
+        font-size: 0.6rem;
+    }
+
+    .countdown-pre-text,
+    .countdown-post-text {
+        font-size: 0.9rem;
     }
 }
 
