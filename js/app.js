@@ -87,8 +87,10 @@ function initCountdown() {
     const container = document.getElementById('countdown-container');
     if (!container) return;
 
-    // Data alvo: 7 de fevereiro de 2026 às 09:00
-    const targetDate = new Date('2026-02-07T09:00:00').getTime();
+    // Data alvo: 7 de fevereiro de 2026 às 09:00 (horário de Brasília - BRT/UTC-3)
+    const targetDate = new Date('2026-02-07T09:00:00-03:00').getTime();
+    
+    let countdownInterval;
 
     function updateCountdown() {
         const now = new Date().getTime();
@@ -137,7 +139,7 @@ function initCountdown() {
 
     // Atualizar countdown imediatamente e depois a cada segundo
     updateCountdown();
-    const countdownInterval = setInterval(updateCountdown, 1000);
+    countdownInterval = setInterval(updateCountdown, 1000);
 }
 
 // Função: Controlar visibilidade do botão scroll-to-top
