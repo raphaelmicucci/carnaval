@@ -76,6 +76,76 @@ a {
    HOMEPAGE
    ======================================== */
 
+/* Countdown Section */
+.countdown-section {
+    margin-bottom: 1.5rem;
+}
+
+#countdown-container {
+    background: var(--black);
+    color: var(--white);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2rem 1rem;
+    border: 3px solid var(--color-primary);
+    text-align: center;
+}
+
+.countdown-pre-text {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+}
+
+.countdown-display {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+
+.countdown-unit {
+    text-align: center;
+    min-width: 70px;
+}
+
+.countdown-number {
+    font-size: 2.5rem;
+    color: var(--color-secondary);
+    font-weight: bold;
+    line-height: 1;
+    display: block;
+}
+
+.countdown-label {
+    font-size: 0.75rem;
+    color: var(--gray-light);
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    letter-spacing: 0.05em;
+}
+
+.countdown-post-text {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+}
+
+.countdown-ended {
+    font-size: 1.5rem;
+    color: var(--color-secondary);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
 /* Fotos em Destaque */
 .featured-photo {
     margin-bottom: 1.5rem;

@@ -79,7 +79,66 @@ function filterBlocos(filters = {}) {
 document.addEventListener('DOMContentLoaded', async () => {
     await loadBlocos();
     initScrollToTopButton();
+    initCountdown();
 });
+
+// Função: Inicializar Countdown
+function initCountdown() {
+    const container = document.getElementById('countdown-container');
+    if (!container) return;
+
+    // Data alvo: 7 de fevereiro de 2026 às 09:00
+    const targetDate = new Date('2026-02-07T09:00:00').getTime();
+
+    function updateCountdown() {
+        const now = new Date().getTime();
+        const distance = targetDate - now;
+
+        if (distance < 0) {
+            // Countdown terminou
+            container.innerHTML = `
+                <div class="countdown-pre-text">O carnaval</div>
+                <div class="countdown-ended">começou!!</div>
+            `;
+            clearInterval(countdownInterval);
+            return;
+        }
+
+        // Calcular tempo restante
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Montar HTML do countdown
+        container.innerHTML = `
+            <div class="countdown-pre-text">Faltam</div>
+            <div class="countdown-display">
+                <div class="countdown-unit">
+                    <span class="countdown-number">${String(days).padStart(2, '0')}</span>
+                    <span class="countdown-label">Dias</span>
+                </div>
+                <div class="countdown-unit">
+                    <span class="countdown-number">${String(hours).padStart(2, '0')}</span>
+                    <span class="countdown-label">Horas</span>
+                </div>
+                <div class="countdown-unit">
+                    <span class="countdown-number">${String(minutes).padStart(2, '0')}</span>
+                    <span class="countdown-label">Minutos</span>
+                </div>
+                <div class="countdown-unit">
+                    <span class="countdown-number">${String(seconds).padStart(2, '0')}</span>
+                    <span class="countdown-label">Segundos</span>
+                </div>
+            </div>
+            <div class="countdown-post-text">para começar!!</div>
+        `;
+    }
+
+    // Atualizar countdown imediatamente e depois a cada segundo
+    updateCountdown();
+    const countdownInterval = setInterval(updateCountdown, 1000);
+}
 
 // Função: Controlar visibilidade do botão scroll-to-top
 function initScrollToTopButton() {
