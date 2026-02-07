@@ -84,39 +84,11 @@ a {
 /* Macetando Section */
 .macetando-section {
     margin-bottom: 1.5rem;
-}
-
-.btn-macetando {
-    background: var(--color-tertiary) !important;
-    color: var(--white) !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    width: 100%;
-}
-
-.btn-macetando:hover {
-    background: var(--black) !important;
-    color: var(--color-tertiary) !important;
-}
-
-.play-icon {
-    font-size: 1rem;
-    line-height: 1;
-}
-
-.spotify-embed-container {
-    margin-top: 1rem;
     border: 2px solid var(--black);
     overflow: hidden;
 }
 
-.spotify-embed-container.hidden {
-    display: none;
-}
-
-.spotify-embed-container iframe {
+.macetando-section iframe {
     display: block;
 }
 
