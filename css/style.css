@@ -81,6 +81,17 @@ a {
     margin-bottom: 1.5rem;
 }
 
+/* Macetando Section */
+.macetando-section {
+    margin-bottom: 1.5rem;
+    border: 2px solid var(--black);
+    overflow: hidden;
+}
+
+.macetando-section iframe {
+    display: block;
+}
+
 #countdown-container {
     background: var(--black);
     color: var(--white);
