@@ -76,91 +76,6 @@ a {
    HOMEPAGE
    ======================================== */
 
-/* Countdown Section */
-.countdown-section {
-    margin-bottom: 1.5rem;
-}
-
-/* Macetando Section */
-.macetando-section {
-    margin-bottom: 1.5rem;
-    overflow: hidden;
-}
-
-.macetando-section iframe {
-    display: block;
-}
-
-#countdown-container {
-    background: var(--black);
-    color: var(--white);
-    font-family: 'Courier New', Courier, monospace;
-    padding: 1.5rem 1rem;
-    border: 3px solid var(--color-primary);
-    text-align: center;
-}
-
-.countdown-pre-text {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-    color: var(--white);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-weight: bold;
-    white-space: nowrap;
-}
-
-.countdown-display {
-    display: flex;
-    gap: 0.5rem;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    margin: 1rem 0;
-}
-
-.countdown-unit {
-    text-align: center;
-    min-width: 60px;
-    flex-shrink: 0;
-}
-
-.countdown-number {
-    font-size: 2.5rem;
-    color: var(--color-secondary);
-    font-weight: bold;
-    line-height: 1;
-    display: block;
-    white-space: nowrap;
-}
-
-.countdown-label {
-    font-size: 0.75rem;
-    color: var(--gray-light);
-    text-transform: uppercase;
-    margin-top: 0.5rem;
-    letter-spacing: 0.05em;
-    white-space: nowrap;
-}
-
-.countdown-post-text {
-    font-size: 1.2rem;
-    margin-top: 1rem;
-    color: var(--white);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-weight: bold;
-    white-space: nowrap;
-}
-
-.countdown-ended {
-    font-size: 1.5rem;
-    color: var(--color-secondary);
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-}
-
 /* Fotos em Destaque */
 .featured-photo {
     margin-bottom: 1.5rem;
@@ -781,28 +696,6 @@ a[href="galeria.html"] {
         padding: 1rem;
         font-size: 0.95rem;
     }
-
-    /* Countdown responsivo */
-    .countdown-display {
-        gap: 0.5rem;
-    }
-
-    .countdown-unit {
-        min-width: 50px;
-    }
-
-    .countdown-number {
-        font-size: 2rem;
-    }
-
-    .countdown-label {
-        font-size: 0.65rem;
-    }
-
-    .countdown-pre-text,
-    .countdown-post-text {
-        font-size: 1rem;
-    }
 }
 
 @media (max-width: 480px) {
@@ -834,32 +727,6 @@ a[href="galeria.html"] {
     .filter-modal {
         width: calc(100vw - 2rem);
         bottom: 70px;
-    }
-
-    /* Countdown extra pequeno */
-    #countdown-container {
-        padding: 1rem 0.5rem;
-    }
-
-    .countdown-display {
-        gap: 0.3rem;
-    }
-
-    .countdown-unit {
-        min-width: 45px;
-    }
-
-    .countdown-number {
-        font-size: 1.75rem;
-    }
-
-    .countdown-label {
-        font-size: 0.6rem;
-    }
-
-    .countdown-pre-text,
-    .countdown-post-text {
-        font-size: 0.9rem;
     }
 }
 
