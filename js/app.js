@@ -37,12 +37,30 @@ async function loadBlocos() {
     }
 }
 
+// Utilitário: Converter data DD/MM/YYYY para Date object
+function parseDate(dateStr) {
+    const [day, month, year] = dateStr.split('/');
+    return new Date(year, month - 1, day);
+}
+
+// Utilitário: Verificar se uma data é hoje ou no futuro
+function isDateTodayOrFuture(dateStr) {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    const eventDate = parseDate(dateStr);
+    eventDate.setHours(0, 0, 0, 0);
+    return eventDate >= today;
+}
+
 // Utilitário: Extrair valores únicos de um campo
 function getUnique(field) {
     const unique = new Set();
     blocos.forEach(bloco => {
         if (bloco[field]) {
-            unique.add(bloco[field]);
+            // Para o campo 'data', filtrar apenas datas futuras ou hoje
+            if (field !== 'data' || isDateTodayOrFuture(bloco[field])) {
+                unique.add(bloco[field]);
+            }
         }
     });
     return Array.from(unique).sort();
@@ -51,6 +69,11 @@ function getUnique(field) {
 // Utilitário: Filtrar blocos por critérios
 function filterBlocos(filters = {}) {
     return blocos.filter(bloco => {
+        // Filtro: apenas eventos de hoje ou no futuro
+        if (!isDateTodayOrFuture(bloco.data)) {
+            return false;
+        }
+
         // Filtro: período
         if (filters.periodo && filters.periodo.length > 0) {
             if (!filters.periodo.includes(bloco.periodo)) return false;
