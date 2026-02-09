@@ -45,9 +45,9 @@ function parseDate(dateStr) {
 
 // Utilitário: Verificar se uma data é hoje ou no futuro
 function isDateTodayOrFuture(dateStr) {
-    const eventDate = parseDate(dateStr);
     const today = new Date();
     today.setHours(0, 0, 0, 0);
+    const eventDate = parseDate(dateStr);
     eventDate.setHours(0, 0, 0, 0);
     return eventDate >= today;
 }
@@ -58,11 +58,7 @@ function getUnique(field) {
     blocos.forEach(bloco => {
         if (bloco[field]) {
             // Para o campo 'data', filtrar apenas datas futuras ou hoje
-            if (field === 'data') {
-                if (isDateTodayOrFuture(bloco[field])) {
-                    unique.add(bloco[field]);
-                }
-            } else {
+            if (field !== 'data' || isDateTodayOrFuture(bloco[field])) {
                 unique.add(bloco[field]);
             }
         }
