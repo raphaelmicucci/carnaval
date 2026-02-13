@@ -145,8 +145,8 @@
             "subprefeitura": "Sé",
             "itinerario": "R. Rui Barbosa, R. João Passalaqua, R. Santo Antônio, R. Treze de Maio, Pça. Dom Orione",
             "horarios": {
-               "concentracao": "12:00",
-               "inicio_desfile": "13:00",
+               "concentracao": "10:00",
+               "inicio_desfile": "12:00",
                "termino_desfile": "16:00"
             },
             "dia_da_semana": "Sábado",
