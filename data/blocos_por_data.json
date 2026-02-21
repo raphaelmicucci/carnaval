@@ -432,7 +432,7 @@
             "bairro": "Vila Mariana",
             "lotacao": "Muito lotado, socorro!",
             "recomendacao": "⭐⭐⭐",
-            "favorito": false
+            "favorito": true
          },
          {
             "nome": "Abacaxi de Irará",

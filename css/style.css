@@ -412,6 +412,48 @@ a[href="galeria.html"] {
     gap: 1rem;
 }
 
+.blocks-toolbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-toggle-past {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem 1rem;
+    background: var(--white);
+    color: var(--black);
+    border: 2px solid var(--black);
+    cursor: pointer;
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+.btn-toggle-past:hover,
+.btn-toggle-past.active {
+    background: var(--black);
+    color: var(--white);
+}
+
+.bloco-card.passado {
+    opacity: 0.65;
+}
+
+.badge-passado {
+    display: inline-block;
+    font-size: 0.65rem;
+    font-weight: bold;
+    background: var(--gray-dark);
+    color: var(--white);
+    padding: 0.1rem 0.4rem;
+    vertical-align: middle;
+    margin-left: 0.4rem;
+    letter-spacing: 0.05em;
+}
+
 .blocos-grid {
     display: flex;
     flex-direction: column;
