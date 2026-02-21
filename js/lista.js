@@ -9,20 +9,24 @@ let currentFilters = {
     lotacao: []
 };
 
+let showPastBlocos = false;
+
 document.addEventListener('DOMContentLoaded', async () => {
     await loadBlocos();
     populateFilters();
     renderBlocos();
     initializeFilterToggle();
-    feather.replace();  // Inicializar ícones Feather
+    initTogglePast();
+    if (window.feather) feather.replace();  // Inicializar ícones Feather
     initScrollToTopButton();
 });
 
 function populateFilters() {
     // Período
-    const periodos = getUnique('periodo');
+    const periodos = getUnique('periodo', showPastBlocos);
     const periodosOrdenados = ['Pré-Carnaval', 'Carnaval', 'Pós-Carnaval'].filter(p => periodos.includes(p));
     const filterPeriodoDiv = document.getElementById('filterPeriodo');
+    filterPeriodoDiv.innerHTML = '';
     periodosOrdenados.forEach(p => {
         const label = document.createElement('label');
         const input = document.createElement('input');
@@ -35,8 +39,9 @@ function populateFilters() {
     });
 
     // Data
-    const datas = getUnique('data');
+    const datas = getUnique('data', showPastBlocos);
     const filterDataDiv = document.getElementById('filterData');
+    filterDataDiv.innerHTML = '';
     datas.forEach(d => {
         const label = document.createElement('label');
         const input = document.createElement('input');
@@ -49,8 +54,9 @@ function populateFilters() {
     });
 
     // Bairro
-    const bairros = getUnique('bairro');
+    const bairros = getUnique('bairro', showPastBlocos);
     const filterBairroDiv = document.getElementById('filterBairro');
+    filterBairroDiv.innerHTML = '';
     bairros.forEach(b => {
         const label = document.createElement('label');
         const input = document.createElement('input');
@@ -63,8 +69,9 @@ function populateFilters() {
     });
 
     // Lotação
-    const lotacoes = getUnique('lotacao');
+    const lotacoes = getUnique('lotacao', showPastBlocos);
     const filterLotacaoDiv = document.getElementById('filterLotacao');
+    filterLotacaoDiv.innerHTML = '';
     lotacoes.forEach(l => {
         const label = document.createElement('label');
         const input = document.createElement('input');
@@ -107,11 +114,12 @@ function initializeFilterToggle() {
         } else {
             toggleBtn.innerHTML = '<i data-feather="chevron-up" class="icon-small"></i>';
         }
-        feather.replace();
+        if (window.feather) feather.replace();
     });
 }
+
 function renderBlocos() {
-    const filtered = filterBlocos(currentFilters);
+    const filtered = filterBlocos(currentFilters, showPastBlocos);
     const container = document.getElementById('blocosList');
     container.innerHTML = '';
 
@@ -137,8 +145,9 @@ function renderBlocos() {
     filtered.forEach((bloco, index) => {
         const hasPhoto = bloco.foto ? true : false;
         const isFavorito = bloco.favorito ? true : false;
+        const isPast = !isDateTodayOrFuture(bloco.data);
         const card = document.createElement('div');
-        card.className = `bloco-card ${hasPhoto ? 'with-photo' : 'without-photo'} ${isFavorito ? 'favorito' : ''}`;
+        card.className = `bloco-card ${hasPhoto ? 'with-photo' : 'without-photo'} ${isFavorito ? 'favorito' : ''} ${isPast ? 'passado' : ''}`;
         
         let photoHTML = '';
         if (hasPhoto) {
@@ -151,13 +160,15 @@ function renderBlocos() {
         // Gerar coordenadas para Google Maps
         const coords = bloco.coordenadas.split(',').map(c => c.trim());
         const googleMapsUrl = `https://www.google.com/maps/search/${coords[0]},${coords[1]}`;
+
+        const pastBadge = isPast ? '<span class="badge-passado">Encerrado</span>' : '';
         
         card.innerHTML = `
             ${photoHTML}
             <div class="bloco-header-wrapper">
                 <div class="bloco-header" onclick="toggleBloco(${index})">
                     <div class="bloco-header-left">
-                        <h3>${bloco.nome}</h3>
+                        <h3>${bloco.nome} ${pastBadge}</h3>
                         <div class="bloco-meta">
                             <strong>${bloco.data}</strong> • ${diaAbreviado} • ${bloco.bairro}
                         </div>
@@ -219,6 +230,22 @@ function clearFilters() {
     });
 
     renderBlocos();
+}
+
+function initTogglePast() {
+    const btn = document.getElementById('btnTogglePast');
+    if (!btn) return;
+
+    btn.addEventListener('click', () => {
+        showPastBlocos = !showPastBlocos;
+        btn.classList.toggle('active', showPastBlocos);
+        btn.innerHTML = showPastBlocos
+            ? '<i data-feather="clock" class="icon-small"></i> Ocultar blocos passados'
+            : '<i data-feather="clock" class="icon-small"></i> Mostrar blocos passados';
+        populateFilters();
+        renderBlocos();
+        if (window.feather) feather.replace();
+    });
 }
 
 function getStarRating(recomendacao) {

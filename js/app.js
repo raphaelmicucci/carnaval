@@ -53,12 +53,12 @@ function isDateTodayOrFuture(dateStr) {
 }
 
 // Utilitário: Extrair valores únicos de um campo
-function getUnique(field) {
+function getUnique(field, showPast = false) {
     const unique = new Set();
     blocos.forEach(bloco => {
         if (bloco[field]) {
-            // Para o campo 'data', filtrar apenas datas futuras ou hoje
-            if (field !== 'data' || isDateTodayOrFuture(bloco[field])) {
+            // Para o campo 'data', filtrar apenas datas futuras ou hoje (a menos que showPast esteja ativo)
+            if (field !== 'data' || showPast || isDateTodayOrFuture(bloco[field])) {
                 unique.add(bloco[field]);
             }
         }
@@ -67,10 +67,10 @@ function getUnique(field) {
 }
 
 // Utilitário: Filtrar blocos por critérios
-function filterBlocos(filters = {}) {
+function filterBlocos(filters = {}, showPast = false) {
     return blocos.filter(bloco => {
-        // Filtro: apenas eventos de hoje ou no futuro
-        if (!isDateTodayOrFuture(bloco.data)) {
+        // Filtro: apenas eventos de hoje ou no futuro (a menos que showPast esteja ativo)
+        if (!showPast && !isDateTodayOrFuture(bloco.data)) {
             return false;
         }
 
