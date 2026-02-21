@@ -52,7 +52,7 @@ function populateMapFilters() {
     });
 
     // Data
-    const datas = getUnique('data');
+    const datas = getUnique('data', true);
     const mapFilterDataDiv = document.getElementById('mapFilterData');
     datas.forEach(d => {
         const label = document.createElement('label');
@@ -120,7 +120,7 @@ function createCustomMarkerIcon(color = '#bd3871') {
 }
 
 function renderMarkers() {
-    const filtered = filterBlocos(currentMapFilters);
+    const filtered = filterBlocos(currentMapFilters, true);
     
     // Limpar markers anteriores
     markersLayer.clearLayers();
