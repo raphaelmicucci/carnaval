@@ -111,15 +111,14 @@ a {
 }
 
 .home-gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
     gap: 4px;
 }
 
 .home-gallery-grid img {
     width: 100%;
-    aspect-ratio: 4 / 3;
-    object-fit: cover;
+    height: auto;
     display: block;
     border: 1px solid var(--black);
 }
