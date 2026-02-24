@@ -103,30 +103,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     await loadBlocos();
     initScrollToTopButton();
     initCreditosModal();
-    initGaleriaModal();
 });
-
-// Função: Inicializar Modal de Foto da Galeria
-function initGaleriaModal() {
-    const modalFoto = document.getElementById('modalFoto');
-    const modalFotoImg = document.getElementById('modalFotoImg');
-    if (!modalFoto || !modalFotoImg) return;
-
-    document.querySelectorAll('.home-gallery-grid img').forEach(img => {
-        img.style.cursor = 'pointer';
-        img.addEventListener('click', () => {
-            modalFotoImg.src = img.src;
-            modalFotoImg.alt = img.alt;
-            modalFoto.classList.add('active');
-        });
-    });
-
-    modalFoto.addEventListener('click', (event) => {
-        if (event.target !== modalFotoImg) {
-            modalFoto.classList.remove('active');
-        }
-    });
-}
 
 // Função: Inicializar Modal de Créditos
 function initCreditosModal() {
