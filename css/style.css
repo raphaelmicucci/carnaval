@@ -89,6 +89,41 @@ a {
     border: 2px solid var(--black);
 }
 
+/* Agradecimento */
+.agradecimento-section {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 2px solid var(--black);
+    background: var(--color-primary);
+    color: var(--white);
+}
+
+.agradecimento-section p {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin: 0;
+    font-style: italic;
+}
+
+/* Galeria Home */
+.home-gallery {
+    margin-bottom: 1.5rem;
+}
+
+.home-gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+}
+
+.home-gallery-grid img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+    border: 1px solid var(--black);
+}
+
 /* Introdução */
 .intro-section {
     margin-bottom: 1.5rem;
