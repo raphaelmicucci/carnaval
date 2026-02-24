@@ -93,13 +93,14 @@ a {
 .agradecimento-section {
     margin-bottom: 1.5rem;
     padding: 1rem;
-    border: 2px solid var(--black);
-    background: var(--color-primary);
-    color: var(--white);
+    border: 3px solid #917b00;
+    background: #f5e77a url('../assets/golden.jpg') center/cover;
+    color: var(--black);
 }
 
 .agradecimento-section p {
-    font-size: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
     line-height: 1.7;
     margin: 0;
     font-style: italic;
